@@ -1,0 +1,79 @@
+10:48:09 PM: INFO [menu_app_eventos.py:25] Personas insertadas: 1
+11:04:07 PM: INFO [menu_app_eventos.py:115] 
+            Id persona: 1, Nombre: Juan, 
+            Apellido: Perez, Email: jperez@mail.com
+        
+11:04:07 PM: INFO [menu_app_eventos.py:115] 
+            Id persona: 17, Nombre: elias, 
+            Apellido: cisneros, Email: eliascisneros@gmail.com
+        
+11:53:32 PM: INFO [menu_app_eventos.py:27] Personas insertadas: 1
+11:53:40 PM: INFO [menu_app_eventos.py:27] Personas insertadas: 1
+03:24:51 PM: INFO [menu_app_eventos.py:116] Eventos insertados: 1
+04:30:47 PM: INFO [menu_app_eventos.py:116] Eventos insertados: 1
+07:43:22 PM: INFO [menu_app_eventos.py:37] Personas insertadas: 1
+07:45:44 PM: INFO [menu_app_eventos.py:37] Personas insertadas: 1
+03:29:28 PM: ERROR [cursor_del_pool.py:20] Ocurrió una excepción, se hace rollback: 'int' object has no attribute 'nombre' <class 'AttributeError'> <traceback object at 0x000001C03E495B40>
+03:37:02 PM: ERROR [cursor_del_pool.py:20] Ocurrió una excepción, se hace rollback: 'int' object has no attribute 'id_persona' <class 'AttributeError'> <traceback object at 0x0000024FA896CB00>
+11:27:09 PM: ERROR [cursor_del_pool.py:20] Ocurrió una excepción, se hace rollback: invalid input syntax for type integer: ""
+LINE 1: ...nto(nombre, fecha, hora, id_persona) VALUES ('', '', '', '')
+                                                                    ^
+ <class 'psycopg2.errors.InvalidTextRepresentation'> <traceback object at 0x000002ACD38ADBC0>
+10:43:07 PM: ERROR [cursor_del_pool.py:20] Ocurrió una excepción, se hace rollback: tuple index out of range <class 'IndexError'> <traceback object at 0x000002960FF52D80>
+10:58:14 PM: INFO [menu_app_eventos.py:40] Personas insertadas: 1
+01:41:26 PM: ERROR [cursor_del_pool.py:20] Ocurrió una excepción, se hace rollback: invalid input syntax for type integer: "
+            Id persona: 1, Nombre: None, Apellido: None, Email: None
+        "
+LINE 1: ..., id_persona) VALUES ('hora de comer', '19/8/21', '19:00', '
+                                                                      ^
+ <class 'psycopg2.errors.InvalidTextRepresentation'> <traceback object at 0x0000025B48D338C0>
+01:41:59 PM: ERROR [cursor_del_pool.py:20] Ocurrió una excepción, se hace rollback: invalid input syntax for type integer: "
+            Id persona: 1, Nombre: None, Apellido: None, Email: None
+        "
+LINE 1: ..., id_persona) VALUES ('hora de comer', '19/8/21', '19:00', '
+                                                                      ^
+ <class 'psycopg2.errors.InvalidTextRepresentation'> <traceback object at 0x0000025B48D33840>
+01:44:36 PM: INFO [menu_app_eventos.py:129] Eventos insertados: 1
+02:34:24 PM: ERROR [cursor_del_pool.py:20] Ocurrió una excepción, se hace rollback: can't adapt type 'Entry' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000001C2CEE517C0>
+02:36:11 PM: ERROR [cursor_del_pool.py:20] Ocurrió una excepción, se hace rollback: can't adapt type 'Entry' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000002392A264640>
+02:38:50 PM: ERROR [cursor_del_pool.py:20] Ocurrió una excepción, se hace rollback: can't adapt type 'Entry' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000001BCC2CB2A40>
+02:39:19 PM: ERROR [cursor_del_pool.py:20] Ocurrió una excepción, se hace rollback: can't adapt type 'Entry' <class 'psycopg2.ProgrammingError'> <traceback object at 0x0000021476AA1940>
+02:40:30 PM: ERROR [cursor_del_pool.py:20] Ocurrió una excepción, se hace rollback: can't adapt type 'Entry' <class 'psycopg2.ProgrammingError'> <traceback object at 0x0000019F52BB1AC0>
+02:53:13 PM: ERROR [cursor_del_pool.py:20] Ocurrió una excepción, se hace rollback: can't adapt type 'Entry' <class 'psycopg2.ProgrammingError'> <traceback object at 0x00000199A6AF1940>
+02:55:08 PM: ERROR [cursor_del_pool.py:20] Ocurrió una excepción, se hace rollback: can't adapt type 'Entry' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000001DBBF730D40>
+02:55:11 PM: ERROR [cursor_del_pool.py:20] Ocurrió una excepción, se hace rollback: can't adapt type 'Entry' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000001DBBF730DC0>
+03:02:12 PM: INFO [menu_app_eventos.py:40] Personas insertadas: 1
+03:03:50 PM: INFO [menu_app_eventos.py:130] Personas actualizadas: 1
+03:03:58 PM: INFO [menu_app_eventos.py:130] Personas actualizadas: 1
+03:04:17 PM: INFO [menu_app_eventos.py:130] Personas actualizadas: 1
+03:04:20 PM: INFO [menu_app_eventos.py:46] Personas actualizadas: 1
+03:04:27 PM: ERROR [cursor_del_pool.py:20] Ocurrió una excepción, se hace rollback: invalid input syntax for type integer: ""
+LINE 1: ...T nombre=NULL, apellido=NULL, email=NULL WHERE id_persona=''
+                                                                     ^
+ <class 'psycopg2.errors.InvalidTextRepresentation'> <traceback object at 0x00000175043CBB00>
+03:04:35 PM: INFO [menu_app_eventos.py:130] Personas actualizadas: 1
+03:04:52 PM: INFO [menu_app_eventos.py:46] Personas actualizadas: 1
+03:06:29 PM: INFO [menu_app_eventos.py:130] Personas actualizadas: 1
+03:06:37 PM: INFO [menu_app_eventos.py:46] Personas actualizadas: 1
+03:08:28 PM: INFO [menu_app_eventos.py:177] Eventos insertados: 1
+03:22:11 PM: INFO [menu_app_eventos.py:265] Eventos actualizados: 1
+03:22:34 PM: INFO [menu_app_eventos.py:183] Eventos actualizados: 1
+05:59:53 PM: INFO [menu_app_eventos.py:130] Personas actualizadas: 1
+06:00:13 PM: INFO [menu_app_eventos.py:46] Personas actualizadas: 1
+06:00:27 PM: INFO [menu_app_eventos.py:265] Eventos actualizados: 1
+06:02:44 PM: INFO [menu_app_eventos.py:46] Personas actualizadas: 1
+06:03:09 PM: INFO [menu_app_eventos.py:46] Personas actualizadas: 1
+06:04:40 PM: INFO [menu_app_eventos.py:264] Eventos actualizados: 1
+06:05:26 PM: INFO [menu_app_eventos.py:182] Eventos actualizados: 1
+06:23:51 PM: ERROR [cursor_del_pool.py:20] Ocurrió una excepción, se hace rollback: tuple index out of range <class 'IndexError'> <traceback object at 0x0000025B5EC7BBC0>
+03:07:25 PM: INFO [menu_app_eventos.py:181] Eventos actualizados: 1
+10:53:49 PM: ERROR [cursor_del_pool.py:20] Ocurrió una excepción, se hace rollback: invalid input syntax for type integer: ""
+LINE 1: ...nto(nombre, fecha, hora, id_persona) VALUES ('', '', '', '')
+                                                                    ^
+ <class 'psycopg2.errors.InvalidTextRepresentation'> <traceback object at 0x0000011AA23298C0>
+08:18:23 PM: INFO [menu_app_eventos.py:168] Eventos insertados: 1
+09:34:49 PM: INFO [menu_app_eventos.py:168] Eventos insertados: 1
+09:35:11 PM: INFO [menu_app_eventos.py:168] Eventos insertados: 1
+09:06:06 PM: INFO [menu_app_eventos.py:168] Eventos insertados: 1
+11:47:21 PM: ERROR [cursor_del_pool.py:20] Ocurrió una excepción, se hace rollback: can't adapt type 'Entry' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000001B1559D9A40>
+11:48:24 PM: ERROR [cursor_del_pool.py:20] Ocurrió una excepción, se hace rollback: can't adapt type 'Entry' <class 'psycopg2.ProgrammingError'> <traceback object at 0x00000217B6D5AEC0>
